@@ -1,0 +1,14 @@
+{
+  "name": "Node Boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate. Node. Express. Socket.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}

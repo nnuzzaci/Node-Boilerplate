@@ -1,0 +1,20 @@
+@import url('assets/fonts/segoe/segoe.css');
+@import url('assets/fonts/teams-assets-light/TeamsAssets-Light.css');
+@import url('assets/fonts/teams-assets-regular/TeamsAssets-Regular.css');
+@import url('assets/fonts/FullMDL2/FullMDL2.css');
+
+html, body{
+  font-family: "Segoe", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  margin:0; padding:0; height:100%;
+}
+
+p{
+  padding:36px;
+}
+.icon-light{
+  font-family: 'TeamsAssetsLight';
+}
+
+.icon-regular{
+  font-family: 'TeamsAssetsRegular';
+}

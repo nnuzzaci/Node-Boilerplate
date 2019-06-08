@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'TeamsAssetsLight';
+    src: url('TeamsAssets-Light.eot'); /* IE9 Compat Modes */
+    src: url('TeamsAssets-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('TeamsAssets-Light.woff') format('woff'), /* Modern Browsers */
+         url('TeamsAssets-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('TeamsAssets-Light.svg#TeamsAssets-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

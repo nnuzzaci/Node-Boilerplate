@@ -31,7 +31,7 @@ io.on('connection', function(socket){ console.log('socket.id: ' + socket.id);
 
   //
   socket.on('disconnect', function(){
-    console.log('disconnect '+socket.id )
+    console.log('Disconnect '+socket.id )
   });
 
 
@@ -39,11 +39,11 @@ io.on('connection', function(socket){ console.log('socket.id: ' + socket.id);
 
 //
 http.listen(app.get('port'), function(){
-  console.log('listening on *:'+ app.get('port') );
+  console.log('Listening on *:'+ app.get('port') );
 });
 
 //
 let getRandomColor = () => {
   var colors = ["#B3DBF2","#A7CFE8","#64A2CC","#62CCDD","#92E0EA","#ABDDD3","#D8E27D","#F7B189","#EF6950","#E6808A","#EE9889","#EEC7C2","#FAC1B4","#E8899C","#92E0EA","#FFB8C6","#ABDDD3","#9480B2","#BBB0D6","#B4A0FF","#9C89E9","#FAC1B4","#E6EDC0","#8FD88B","#5DC1AE","#C0DCE6"]
-	return colors[Math.floor(Math.random() * colors.length)];
+  return colors[Math.floor(Math.random() * colors.length)];
 }
